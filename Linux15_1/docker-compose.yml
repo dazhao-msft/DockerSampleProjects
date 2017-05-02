@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  linux15_1:
+    image: linux15_1
+    build:
+      context: ./Linux15_1
+      dockerfile: Dockerfile

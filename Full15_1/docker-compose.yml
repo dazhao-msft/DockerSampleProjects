@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  full15_1:
+    image: full15_1
+    build:
+      context: .\Full15_1
+      dockerfile: Dockerfile

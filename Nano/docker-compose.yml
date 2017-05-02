@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  nano:
+    image: nano
+    build:
+      context: ./Nano
+      dockerfile: Dockerfile

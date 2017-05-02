@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  full15_3:
+    image: full15_3
+    build:
+      context: .\Full15_3
+      dockerfile: Dockerfile

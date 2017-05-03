@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  linux15_3:
+    image: linux15_3
+    build:
+      context: ./Linux15_3
+      dockerfile: Dockerfile
